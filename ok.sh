@@ -11,14 +11,16 @@ rm -rf vendor/xiaomi/fog
 rm -rf hardware/xiaomi
 
 # Device Specific
-git clone https://github.com/Baterskot-Prjkt/device_xiaomi_fog -b pixelos-16qpr2 device/xiaomi/fog
-git clone https://github.com/Baterskot-Prjkt/device_xiaomi_fog-kernel -b motregen device/xiaomi/fog-kernel
-git clone https://github.com/Baterskot-Prjkt/vendor_xiaomi_fog -b baklava-and-beyond vendor/xiaomi/fog 
+git clone https://github.com/Baterskot-Prjkt/device_xiaomi_fog.git -b pixelos-16qpr2 device/xiaomi/fog
+git clone https://github.com/Baterskot-Prjkt/device_xiaomi_fog-kernel.git -b motregen device/xiaomi/fog-kernel
+git clone https://github.com/Baterskot-Prjkt/vendor_xiaomi_fog.git -b baklava-and-beyond vendor/xiaomi/fog 
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-23.2 hardware/xiaomi
 
 export BUILD_USERNAME=Butterscotch
 export BUILD_HOSTNAME=crave 
 
+rm -rf hardware/qcom-caf/sm8750
+rm -rf hardware/qcom-caf/sm8450-6.6
 # Build
 . build/envsetup.sh
 breakfast fog
