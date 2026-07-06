@@ -19,8 +19,6 @@ git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-23
 export BUILD_USERNAME=Butterscotch
 export BUILD_HOSTNAME=crave 
 
-rm -rf hardware/qcom-caf/sm8750
-rm -rf hardware/qcom-caf/sm8450-6.6
 # Build
 . build/envsetup.sh
 breakfast fog
