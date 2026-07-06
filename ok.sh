@@ -18,7 +18,7 @@ git clone https://github.com/Baterskot-Prjkt/vendor_xiaomi_fog.git -b baklava-an
 git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-23.2 hardware/xiaomi
 
 export BUILD_USERNAME=Butterscotch
-export BUILD_HOSTNAME=crave 
+export BUILD_HOSTNAME=Heaven 
 
 # Build
 . build/envsetup.sh
