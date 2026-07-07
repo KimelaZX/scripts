@@ -27,7 +27,7 @@ git clone https://github.com/MillenniumOSS/android_hardware_millennium -b sixtee
 git clone https://github.com/MillenniumOSS/android_vendor_JamesDSP -b sixteen vendor/JamesDSP
 git clone https://github.com/MillenniumOSS/android_vendor_mediatek_ims -b sixteen-oem vendor/mediatek/ims
 rm -rf package/apps/Aperture
-git clone https://github.com/MillenniumOSS/android_package_apps_Aperture -b lineage-23.2 package/apps/Aperture
+git clone https://github.com/MillenniumOSS/android_packages_apps_Aperture -b lineage-23.2 package/apps/Aperture
 
 export BUILD_USERNAME=KimelaZPrjkt
 export BUILD_HOSTNAME=At-Your-Service
