@@ -28,6 +28,8 @@ git clone https://github.com/MillenniumOSS/android_vendor_JamesDSP -b sixteen ve
 git clone https://github.com/MillenniumOSS/android_vendor_mediatek_ims -b sixteen-oem vendor/mediatek/ims
 rm -rf package/apps/Aperture
 git clone https://github.com/MillenniumOSS/android_packages_apps_Aperture -b lineage-23.2 package/apps/Aperture
+rm -rf external/wpa_supplicant_8
+git clone https://github.com/KimelaZX/android_external_wpa_supplicant_8 -b lineage-23.2 external/wpa_supplicant_8
 
 export BUILD_USERNAME=KimelaZPrjkt
 export BUILD_HOSTNAME=At-Your-Service
